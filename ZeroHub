@@ -1,9 +1,13 @@
 local supportedGames = {
-    ["109983668079237"] = true, 
+    ["109983668079237"] = true, -- GameId for Steal a Brainrot
     ["128066522055979"] = true,
     ["126244816328678"] = true,
     ["72212564918217"] = true,
 	["7709344486"] = true,
+	["128066522055979"] = true,
+	["7974428829"] = true,
+	["7907828295"] = true,
+	["7218065222"] = true,
 }
 
 if supportedGames[tostring(game.GameId)] then
